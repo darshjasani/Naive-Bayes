@@ -1,3 +1,4 @@
+#Laoding Iris dataset
 data(iris)
 ran = sample(1:nrow(iris),0.6*nrow(iris))
 norm = function(x) { (x-min(x))/(max(x)-min(x))}
